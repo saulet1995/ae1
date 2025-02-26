@@ -1,7 +1,7 @@
 <?php
 
-echo "¡Enhorabuena! Has ganado :) La palabra era: " . $_SESSION['palabra'] . "<br>";
-session_destroy();
-echo '<a href="../">Jugar de nuevo</a>';
+echo "¡Enhorabuena! Has ganado :)" . "<br>";
+
+echo '<a href="index.php">Jugar de nuevo</a>';
 
 ?>
